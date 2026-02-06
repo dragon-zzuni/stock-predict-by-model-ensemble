@@ -1,0 +1,184 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Logs
+logs/
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.kiro
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend builds
+.dist/
+.next/
+out/
+.turbo/
+
+# Data / artifacts
+/data/
+*.csv
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Secrets / keys
+*.pem
+*.p12
+*.pfx
+*.key
+*.jks
+
+# MoAI / Claude artifacts
+.moai
+.moai-backups/
+.claude/
+# Mac
+*.tmp
+.firebase/
+.claude/settings.local.*.json
+*_token=*
+# Private keys (specific patterns to avoid false positives)
+*.sqlite
+.claude/settings.local.json
+*.sublime-project
+# Credential patterns in environment files
+*.key.*
+private-key*
+api-key-*
+# IDE & Editors
+# FIXED: Issue #237 - Replaced overly broad *key* and *secret* patterns
+*.pfx
+*_key.*
+# Windows
+*.pyo
+*.pem
+*.swo
+*.tsbuildinfo
+# Node.js (for docs/Nextra)
+secret-*.*
+*.sqlite3
+*~
+*-backup/
+*.dbm
+# Version: 0.33.0
+.claude/local/
+# Test Coverage
+.directory
+*-secret.*
+# Build Tools & Frameworks
+.uv-cache/
+*.secret.*
+*.backup/
+.claude/skills/*/.env*
+*_secret=*
+.aws/config
+.nuxt/
+coverage.json
+# Linux
+node_modules/
+# Cloud provider credentials
+# Certificate files
+*_secret.*
+*.rdb
+*.swp
+.vercel/
+# Deployment & CI/CD
+# ===========================================
+.ruff_cache/
+*-secret-key.*
+.claude/skills/*/*/*key*
+.claude/skills/*/*/*token*
+*.jks
+# Build Artifacts & Distribution
+dist-ssr/
+# Secrets and Credentials (CRITICAL)
+# OS Files
+# ============================================
+# Claude Code Configuration
+*.sw?
+.aws/credentials
+.claude/plans/
+*-key.*
+*.sln
+*.pyc
+# Virtual Environments
+.tscache/
+*.temp
+.cursor/
+*.db
+# Skill-specific credentials
+*.suo
+logs/
+.env/
+*.bak
+.claude/skills/*/secrets/
+.next/
+# Python Cache & Bytecode
+.netlify/
+.#*
+.claude/.env.local*
+# MoAI-ADK Package Distribution .gitignore
+*.njsproj
+*.backup
+# Updated: 2026-01-10
+.claude/skills/*/*/*secret*
+out/
+*-api-key.*
+*.sublime-workspace
+.moai-backups/
+# Environment files
+# Purpose: Essential patterns for user projects
+*.pyd
+.vscode/
+secret-key-*
+*.p12
+*_backup_*/
+.env.*
+!.env.example
+.turbo/
+# Logs & Temporary Files
+# Backups
+.uv_cache/
+.idea/
+.venv/

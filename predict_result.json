@@ -1,0 +1,1 @@
+{"error":{"code":"PREDICTION_FAILED","message":"예측을 수행할 수 없습니다","details":"예측 실패: 1 validation error for ModelPrediction\npredictions\n  Value error, 최소 하나 이상의 기간 예측이 필요합니다 [type=value_error, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error","timestamp":"2025-12-30T05:55:27.790776Z","retryable":true}}
